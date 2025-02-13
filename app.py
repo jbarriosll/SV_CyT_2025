@@ -28,14 +28,14 @@ if seccion in imagenes:
     st.sidebar.image(imagenes[seccion], use_container_width=True)
 
 if seccion == "Inicio":
-    st.header("Docentes")
+    st.header("Docentes:")
     st.write("**Coordinador del área:** Julio Barrios")
     st.write("**Coordinadora de Química:** Cecilia Castillo")
     st.write("**Coordinador de Física:** Luis Samaniego")
     st.write("**Coordinador de Biología:** José Cantela")
 
 elif seccion == "Química":
-    st.header("Área de Química")
+    st.header("Química")
     st.write("**Coordinadora de Química:** Cecilia Castillo")
     with st.expander("Contenido del curso"):
         st.write("- Introducción a la química general")
@@ -43,14 +43,16 @@ elif seccion == "Química":
         st.write("- Reacciones químicas y estequiometría")
 
 elif seccion == "Física":
-    st.header("Área de Física")
+    st.header("Física")
+    st.write("**Coordinador de Física:** Luis Samaniego")
     with st.expander("Contenido del curso"):
         st.write("- Conceptos básicos de cinemática")
         st.write("- Leyes de Newton")
         st.write("- Energía y trabajo")
 
 elif seccion == "Biología":
-    st.header("Área de Biología")
+    st.header("Biología")
+    st.write("**Coordinador de Biología:** José Cantela")
     with st.expander("Contenido del curso"):
         st.write("- Introducción a la biología celular")
         st.write("- Genética y herencia")
