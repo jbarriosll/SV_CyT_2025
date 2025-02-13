@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Curso de Ciencia y Tecnología", layout="wide")
 
 # Cargar un logo pequeño en la parte superior izquierda
-logo_top_path = "logo_top.jpg"  # Asegúrate de subir este archivo al mismo directorio que el script
+logo_top_path = "SV_insignia.png"  # Asegúrate de subir este archivo al mismo directorio que el script
 col1, col2 = st.columns([1, 10])
 with col1:
     st.image(logo_top_path, width=100)
