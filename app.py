@@ -1,14 +1,14 @@
 import streamlit as st
 
-st.set_page_config(page_title="Curso de Ciencia y Tecnología", layout="wide")
+st.set_page_config(page_title="Ciencia y Tecnología", layout="wide")
 
 # Cargar un logo pequeño en la parte superior izquierda
 logo_top_path = "SV_insignia.png"  # Asegúrate de subir este archivo al mismo directorio que el script
 col1, col2 = st.columns([1, 10])
 with col1:
-    st.image(logo_top_path, width=100)
+    st.image(logo_top_path, width=200)
 with col2:
-    st.title("Curso de Ciencia y Tecnología")
+    st.title("Ciencia y Tecnología")
 
 st.sidebar.title("Menú")
 seccion = st.sidebar.selectbox("Selecciona una sección", ["Inicio", "Química", "Física", "Biología", "Calendario", "Materiales"])
@@ -29,13 +29,14 @@ if seccion in imagenes:
 
 if seccion == "Inicio":
     st.header("Coordinadores y Docentes")
-    st.write("**Coordinador del curso:** Julio Barrios")
+    st.write("**Coordinador del área:** Julio Barrios")
     st.write("**Coordinadora de Química:** Cecilia Castillo")
     st.write("**Coordinador de Física:** Luis Samaniego")
     st.write("**Coordinador de Biología:** José Cantela")
 
 elif seccion == "Química":
     st.header("Área de Química")
+    st.write("**Coordinadora de Química:** Cecilia Castillo")
     with st.expander("Contenido del curso"):
         st.write("- Introducción a la química general")
         st.write("- Propiedades de la materia")
