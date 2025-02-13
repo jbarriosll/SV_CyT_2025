@@ -28,7 +28,7 @@ if seccion in imagenes:
     st.sidebar.image(imagenes[seccion], use_container_width=True)
 
 if seccion == "Inicio":
-    st.header("Coordinadores y Docentes")
+    st.header("Docentes")
     st.write("**Coordinador del área:** Julio Barrios")
     st.write("**Coordinadora de Química:** Cecilia Castillo")
     st.write("**Coordinador de Física:** Luis Samaniego")
