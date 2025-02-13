@@ -2,20 +2,18 @@ import streamlit as st
 
 st.set_page_config(page_title="Curso de Ciencia y Tecnología", layout="wide")
 
-# Cargar un logo pequeño en la parte superior
-logo_top_path = "SV_insignia.png"  # Asegúrate de subir este archivo al mismo directorio que el script
-st.image(logo_top_path, width=100)
-
-st.title("Curso de Ciencia y Tecnología")
-
-# Cargar un logo desde un archivo local en la barra lateral
-logo_path = "SV_logo.jpg"  # Asegúrate de subir este archivo al mismo directorio que el script
-st.sidebar.image(logo_path, use_column_width=True)
+# Cargar un logo pequeño en la parte superior izquierda
+logo_top_path = "logo_top.jpg"  # Asegúrate de subir este archivo al mismo directorio que el script
+col1, col2 = st.columns([1, 10])
+with col1:
+    st.image(logo_top_path, width=100)
+with col2:
+    st.title("Curso de Ciencia y Tecnología")
 
 st.sidebar.title("Menú")
 seccion = st.sidebar.selectbox("Selecciona una sección", ["Inicio", "Química", "Física", "Biología", "Calendario", "Materiales"])
 
-# Diccionario de imágenes para cada sección
+# Diccionario de imágenes para cada sección en la barra lateral
 imagenes = {
     "Inicio": "inicio.jpg",
     "Química": "quimica.jpg",
@@ -25,9 +23,9 @@ imagenes = {
     "Materiales": "materiales.jpg"
 }
 
-# Mostrar imagen correspondiente a la sección seleccionada
+# Mostrar imagen correspondiente a la sección seleccionada en la barra lateral
 if seccion in imagenes:
-    st.image(imagenes[seccion], use_column_width=True)
+    st.sidebar.image(imagenes[seccion], use_column_width=True)
 
 if seccion == "Inicio":
     st.header("Coordinadores y Docentes")
@@ -73,4 +71,3 @@ elif seccion == "Materiales":
         st.write("- Libros de referencia")
         st.write("- Apuntes y presentaciones")
         st.write("- Prácticas y experimentos")
-        
