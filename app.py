@@ -4,6 +4,10 @@ st.set_page_config(page_title="Curso de Ciencia y Tecnología", layout="wide")
 
 st.title("Curso de Ciencia y Tecnología")
 
+# Cargar un logo desde un archivo local
+logo_path = "logo.jpg"  # Asegúrate de subir este archivo al mismo directorio que el script
+st.sidebar.image(logo_path, use_column_width=True)
+
 st.sidebar.title("Menú")
 seccion = st.sidebar.radio("Selecciona una sección", ["Inicio", "Química", "Física", "Biología", "Calendario", "Materiales"])
 
