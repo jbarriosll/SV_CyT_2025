@@ -1,14 +1,14 @@
 import streamlit as st
 
-st.set_page_config(page_title="Ciencia y Tecnología", layout="wide")
+st.set_page_config(page_title="Ciencia y Tecnología (CyT)", layout="wide")
 
 # Cargar un logo pequeño en la parte superior izquierda
 logo_top_path = "SV_insignia.png"  # Asegúrate de subir este archivo al mismo directorio que el script
 col1, col2 = st.columns([1, 10])
 with col1:
-    st.image(logo_top_path, width=200)
+    st.image(logo_top_path, width=150)
 with col2:
-    st.title("Ciencia y Tecnología")
+    st.title("Ciencia y Tecnología (CyT)")
 
 st.sidebar.title("Menú")
 seccion = st.sidebar.selectbox("Selecciona una sección", ["Inicio", "Química", "Física", "Biología", "Calendario", "Útiles Escolares"])
