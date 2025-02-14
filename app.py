@@ -85,7 +85,7 @@ elif seccion == "Útiles Escolares":
         st.write("- Color: Verde Claro")
         st.write("- Ejemplo")
         st.image("F_Vl.jpg", width=500)
-    st.header("Laboratorio")
+    st.header("Laboratorio"):
         st.write("- 01 guardapolvo blanco para laboratorio.")
         st.image("F_Vl.jpg", width=500)
         st.write("- 01 gafas de seguridad para laboratorio.")
