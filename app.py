@@ -68,9 +68,10 @@ elif seccion == "Calendario":
         st.write("| Luis Samaniego | Miércoles y Viernes | 08:00 - 10:00 |")
         st.write("| José Cantela | Martes y Jueves | 10:00 - 12:00 |")
 
-elif seccion == "Materiales":
-    st.header("Materiales del curso")
-    with st.expander("Ver materiales"):
-        st.write("- Libros de referencia")
-        st.write("- Apuntes y presentaciones")
-        st.write("- Prácticas y experimentos")
+elif seccion == "Útiles Escolares":
+    st.header("Teória")
+    with st.expander("Química"):
+        st.write("- 01 cuad. A4 100 hojas (cuadriculado)")
+        st.write("- Color: Verde Oscuro")
+        st.write("- Ejemplo")
+    st.header("Laboratorio")
