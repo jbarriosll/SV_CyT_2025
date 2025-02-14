@@ -70,7 +70,7 @@ elif seccion == "Calendario":
 
 elif seccion == "Útiles Escolares":
     st.header("Teória")
-     with st.expander("Química"):
+    with st.expander("Química"):
         st.write("- 01 cuad. A4 100 hojas (cuadriculado)")
         st.write("- Color: Verde Oscuro")
         st.write("- Ejemplo")
