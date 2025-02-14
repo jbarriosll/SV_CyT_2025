@@ -25,7 +25,7 @@ imagenes = {
 
 # Mostrar imagen correspondiente a la sección seleccionada en la barra lateral
 if seccion in imagenes:
-    st.sidebar.image(imagenes[seccion], use_container_width=True)
+    st.sidebar.image(imagenes[seccion], use_container_width=200)
 
 if seccion == "Inicio":
     st.header("Docentes:")
