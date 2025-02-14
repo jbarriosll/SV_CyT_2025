@@ -75,12 +75,12 @@ elif seccion == "Útiles Escolares":
         st.write("- Color: Verde Oscuro")
         st.write("- Ejemplo")
         st.image("q_VO.jpg", width=500)
-     with st.expander("Física"):
+    with st.expander("Física"):
         st.write("- 01 cuad. A4 100 hojas (cuadriculado)")
         st.write("- Color: Verde Limón")
         st.write("- Ejemplo")
         st.image("F_Vl.jpg", width=500)
-     with st.expander("Biología"):
+    with st.expander("Biología"):
         st.write("- 01 cuad. A4 100 hojas (cuadriculado)")
         st.write("- Color: Verde Claro")
         st.write("- Ejemplo")
