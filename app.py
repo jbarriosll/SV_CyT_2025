@@ -75,4 +75,4 @@ elif seccion == "Útiles Escolares":
         st.write("- Color: Verde Oscuro")
         st.write("- Ejemplo")
         st.image("inicio.jpg", width=100)
-    with st.header("Laboratorio")
+
