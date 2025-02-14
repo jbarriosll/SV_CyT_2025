@@ -87,9 +87,9 @@ elif seccion == "Útiles Escolares":
         st.image("b.jpg", width=500)
     st.header("Laboratorio")
     st.write("- 01 guardapolvo blanco para laboratorio.")
-    st.image("F_Vl.jpg", width=500)
+    st.image("f.jpg", width=500)
     st.write("- 01 gafas de seguridad para laboratorio.")
-    st.image("F_Vl.jpg", width=500)
+    st.image("f.jpg", width=500)
     st.write("- 01 guante desechable para laboratorio (látex o nitrilo) para cada práctica de laboratorio.")
-    st.image("F_Vl.jpg", width=500)    
+    st.image("f.jpg", width=500)    
 
