@@ -11,7 +11,7 @@ with col2:
     st.title("Ciencia y Tecnología")
 
 st.sidebar.title("Menú")
-seccion = st.sidebar.selectbox("Selecciona una sección", ["Inicio", "Química", "Física", "Biología", "Calendario", "Materiales"])
+seccion = st.sidebar.selectbox("Selecciona una sección", ["Inicio", "Química", "Física", "Biología", "Calendario", "Útiles Escolares"])
 
 # Diccionario de imágenes para cada sección en la barra lateral
 imagenes = {
@@ -20,7 +20,7 @@ imagenes = {
     "Física": "fisica.jpg",
     "Biología": "biologia.jpg",
     "Calendario": "calendario.jpg",
-    "Materiales": "materiales.jpg"
+    "Útiles Escolares": "materiales.jpg"
 }
 
 # Mostrar imagen correspondiente a la sección seleccionada en la barra lateral
