@@ -79,5 +79,5 @@ elif seccion == "Útiles Escolares":
         st.write("- 01 cuad. A4 100 hojas (cuadriculado)")
         st.write("- Color: Verde Limón")
         st.write("- Ejemplo")
-        st.image("F_VI.jpg", width=500)
+        st.image("F_Vl.jpg", width=500)
 
