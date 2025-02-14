@@ -80,4 +80,16 @@ elif seccion == "Útiles Escolares":
         st.write("- Color: Verde Limón")
         st.write("- Ejemplo")
         st.image("F_Vl.jpg", width=500)
+    with st.expander("Biología"):
+        st.write("- 01 cuad. A4 100 hojas (cuadriculado)")
+        st.write("- Color: Verde Claro")
+        st.write("- Ejemplo")
+        st.image("F_Vl.jpg", width=500)
+    st.header("Laboratorio")
+        st.write("- 01 guardapolvo blanco para laboratorio.)")
+        st.image("F_Vl.jpg", width=500)
+        st.write("- 01 gafas de seguridad para laboratorio.)")
+        st.image("F_Vl.jpg", width=500)
+        st.write("- 01 guante desechable para laboratorio (látex o nitrilo) para cada práctica de laboratorio.)")
+        st.image("F_Vl.jpg", width=500)    
 
