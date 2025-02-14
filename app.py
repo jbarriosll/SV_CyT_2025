@@ -76,5 +76,5 @@ elif seccion == "Útiles Escolares":
         st.write("- Ejemplo")
         # Cargar un logo pequeño en la parte superior izquierda
         logo_top_path = "SV_insignia.png"  # Asegúrate de subir este archivo al mismo directorio que el script
-        st.image(logo_top_path, width=200)
+        with st.image(logo_top_path, width=100)
     with st.header("Laboratorio")
